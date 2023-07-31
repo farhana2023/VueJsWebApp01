@@ -6,54 +6,153 @@
     <title>Home</title>
     <!--Custom CSS  link-->
     <link rel="stylesheet" href="\Project\CSS\style.css" />
-        <!--fontr Awesome Cdn  link-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-
+    <!--font Awesome Cdn  link-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
-    <main>
+    <header>
       <article>
         <div class="top-header"></div>
       </article>
-   
       <!--Header  section  start-->
       <article class="HeaderContainer">
-   
-          <div class="navlogo">
-            <h2 style="font-family: 'Zeyada', cursive;;">RhythmRiders</h2></div>
-      
-          <div class="navcontainer">
-            <nav >
-           
-              <a href="index.html">Home</a>
-              <a href="Activities.html">Activities</a>
-              <a href="Events.html">Events</a>
-              <a href="Resource.html">Resource</a>
-              <a href="about.html">About Us</a>
-              <a href="contact.html">Contact</a>
-              
-            </nav>
-
-    
-          </div>
-          <div class="navIcons">
-            <div id="menu-btn" class="fas fa-bars"></div>
-            <div id="account-btn" class="fas fa-user"></div>
-            <div id="cart-btn" class="fas fa-shopping-cart"></div>
-          </div>
-         
-
-       
+        <div class="navlogo">
+          <span>
+            <i class="fas fa-seedling"></i>
+            <h2 style="font-family: 'Zeyada', cursive">RhythmRiders</h2>
+          </span>
+        </div>
+        <div class="navcontainer">
+          <nav>
+            <a href="index.html">Home</a>
+            <a href="Activities.html">Activities</a>
+            <a href="Events.html">Events</a>
+            <a href="Resource.html">Resource</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact</a>
+          </nav>
+        </div>
+        <div class="navIcons">
+          <div id="menu-btn" class="fas fa-bars"></div>
+          <div id="account-btn" class="fas fa-user"></div>
+          <div id="cart-btn" class="fas fa-shopping-cart"></div>
+        </div>
       </article>
-
-
       <!--Header  section  end-->
+    </header>
+    <main>
+      <article></article>
     </main>
+    <div class="account-form">
+      <div id="close-form" class="fas fa-times"></div>
+      <div class="btn-span">
+        <div class="logbutton">
+          <button type="active login" class="btn active login">Login</button>
+        </div>
+        <div class="regbutton">
+          <button type="register" class="btn">Register</button>
+        </div>
+      </div>
+      <form class="login-form active" action="">
+        <h3>Login form</h3>
+        <input type="email" placeholder="enter your email" class="box" />
+        <input type="password" placeholder="enter your password" class="box" />
+        <div class="loginflex">
+          <input type="checkbox" name="" id="remember-me" style="width: 20%" />
 
+          <label for="remember-me">Remember Me</label>
+          <a href="#">forgot password</a>
+        </div>
+        <input type="submit" value="Login now" class="btn" />
+      </form>
+
+      <form class="Register-form" action="">
+        <h3>Register now</h3>
+        <input type="email" placeholder="enter your email" class="box" />
+        <input type="password" placeholder="enter your password" class="box" />
+        <input
+          type="password"
+          placeholder="confirm your password"
+          class="box"
+        />
+        <input type="submit" value="Register now" class="btn" />
+      </form>
+    </div>
+    <!----footer Start---p-------->
+    <footer>
+      <section class="footer">
+        <div class="box-container">
+          <div class="footerbox">
+            <span>
+             <i class="fas fa-seedling"></i>
+              <p>
+                The RhythmRiders Learning Hub is an innovative web platform
+                designed to provide children in Saskatoon, Canada, with a
+                comprehensive resource for learning and exploring a wide range
+                of leisure activities.
+              </p></span
+            >
+            <div class="Share">
+              <a href="#" class="fab fa-facebook-f"></a>
+              <a href="#" class="fab fa-twitter"></a>
+              <a href="#" class="fab fa-instagram"></a>
+              <a href="#" class="fab fa-linkedin"></a>
+            </div>
+          </div>
+
+          <div class="footerbox">
+            <h3>quick links</h3>
+            <a href="index.html" class="link">Home</a>
+            <a href="Activities.html" class="link">Activities</a>
+            <a href="Events.html" class="link">Events</a>
+            <a href="Resource.html" class="link">Resource</a>
+            <a href="about.html" class="link">About Us</a>
+            <a href="contact.html" class="link">Contact</a>
+          </div>
+
+          <div class="footerbox">
+            <h3>useful links</h3>
+            <a href="#" class="link">help center</a>
+            <a href="#" class="link">ask questions</a>
+            <a href="#" class="link">send feedback</a>
+            <a href="#" class="link">private policy</a>
+            <a href="#" class="link">term of use</a>
+          </div>
+          <div class="footerbox">
+            <h3>newsletter</h3>
+            <p>subcribe for latests</p>
+            <form action="">
+              <input
+                type="email"
+                name=""
+                placeholder="enter your mail"
+                id=""
+                class="email"
+              />
+              <input type="submit" value="subscribe" class="btn" />
+            </form>
+          </div>
+        </div>
+      </section>
+      <div class="credit">created by <span> Farhana Islam</span> | all rights reserved!</div>
+    </footer>
+
+    <!----footer end----------->
     <!--Custom js  link-->
-    <script src="\practice\farhana\ToDoList\main.js"></script>
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="\Project\JS\main.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
   </body>
 </html>
